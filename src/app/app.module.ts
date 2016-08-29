@@ -5,15 +5,15 @@ import { AppComponent } from "./app.component";
 import {ServiceComponent} from "./service";
 import { CmpAComponent } from "./service";
 import { CmpBComponent } from "./service";
-
-
+import { LogService } from "./service";
 
 
 
 @NgModule({
 	declarations: [AppComponent, ServiceComponent, CmpAComponent, CmpBComponent],
 	imports: [BrowserModule, FormsModule ],
-	bootstrap: [AppComponent]
+	bootstrap: [AppComponent],
+	providers: [LogService]
 })
 
 export class AppModule {}
