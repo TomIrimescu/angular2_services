@@ -3,7 +3,6 @@ import {DataService} from "./data.service";
 
 
 @Component({
-  moduleId: module.id,
   selector: 'app-service',
 	template: `
     <app-cmp-a></app-cmp-a>

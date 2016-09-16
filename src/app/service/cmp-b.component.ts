@@ -3,7 +3,6 @@ import { LogService } from "./log.service";
 import { DataService } from "./data.service";
 
 @Component({
-  moduleId: module.id,
   selector: 'app-cmp-b',
   template: `
     <div>
